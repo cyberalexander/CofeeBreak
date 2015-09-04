@@ -11,7 +11,8 @@
 <div class="wrapper">
     <h3 class="inquiry-h3">UPDATE SAIL FORM</h3>
     <div class="container"  style="width: 950px; text-align: center">
-        <s:form method="post" modelAttribute="sailDTO" action="/sail/update/sail">
+        <c:url var="post_url"  value="/sail/update/sail" />
+        <s:form method="post" modelAttribute="sailDTO" action="${post_url}">
             <s:input path="id" value="${sailDTO.id}" type="hidden"/>
             <table>
                 <tr>

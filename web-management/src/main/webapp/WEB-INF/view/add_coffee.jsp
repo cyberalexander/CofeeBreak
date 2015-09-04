@@ -12,7 +12,8 @@
 <div class="wrapper">
     <div>
         <h3 class="inquiry-h3">ADD COFFEE FORM</h3>
-        <s:form method="post" modelAttribute="coffeeDTO" action="/coffee/save">
+        <c:url var="post_url"  value="/coffee/save" />
+        <s:form method="post" modelAttribute="coffeeDTO" action="${post_url}">
             <table>
                 <tr>
                     <td>

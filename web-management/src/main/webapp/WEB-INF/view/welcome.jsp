@@ -23,7 +23,7 @@
             </c:if>
             <sec:authorize access="!isAuthenticated()">
                 <p><a class="btn btn-lg btn-success" href="<c:url value="/login" />" role="button">SIGN IN</a>
-                <a class="btn btn-info" href="/registration" role="button">SIGN UP</a></p>
+                <a class="btn btn-info" href="<c:url value="/registration" />" role="button">SIGN UP</a></p>
             </sec:authorize>
             <sec:authorize access="isAuthenticated()">
                 <p>Ваш логин: <sec:authentication property="principal.username" /></p>

@@ -23,7 +23,7 @@
             <input type="password" class="form-control" name="j_password" placeholder="Password" required value="1234"><br/>
             <button class="btn btn-success" type="submit">SIGN IN</button>
         </form>
-        <form action="/registration">
+        <form action="<c:url value="/registration"/>">
             <button class="btn btn-info" type="submit">SIGN UP</button>
         </form>
 

@@ -12,7 +12,8 @@
 <div class="wrapper">
     <div>
         <h3 class="inquiry-h3">EDIT COFFEE FORM</h3>
-        <s:form method="post" modelAttribute="coffeeDTO" action="/coffee/edit">
+        <c:url var="post_url"  value="/coffee/edit" />
+        <s:form method="post" modelAttribute="coffeeDTO" action="${post_url}">
             <s:input path="coffeeId" value="${coffeeDTO.coffeeId}" type="hidden"/>
             <table>
                 <tr>

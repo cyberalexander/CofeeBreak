@@ -1,4 +1,5 @@
 <%@ taglib prefix="s" uri="http://www.springframework.org/tags/form" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: alexanderleonovich
@@ -10,7 +11,8 @@
 <div class="wrapper">
         <h3 class="inquiry-h3">REGISTRATION FORM</h3>
     <div  class="container"  style="width: 950px; text-align: center">
-        <s:form method="post" modelAttribute="customerDTO" action="/save/customer">
+        <c:url var="post_url"  value="/save/customer" />
+        <s:form method="post" modelAttribute="customerDTO" action="${post_url}">
             <table>
                 <tr>
                     <td>

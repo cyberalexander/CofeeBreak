@@ -12,7 +12,8 @@
 <div class="wrapper">
     <div>
         <h3 class="inquiry-h3">ADD ADDRESS FORM</h3>
-        <s:form method="post" modelAttribute="addressDTO" action="/save/address">
+        <c:url var="post_url"  value="/save/address" />
+        <s:form method="post" modelAttribute="addressDTO" action="${post_url}">
             <table>
                 <tr>
                     <td>
