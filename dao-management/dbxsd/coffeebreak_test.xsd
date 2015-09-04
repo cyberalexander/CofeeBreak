@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns="coffeebreak_test" targetNamespace="coffeebreak_test">
+	<xsd:element name="T_SAIL" type="T_SAIL__type" />
+	<xsd:element name="dbmaintain_scripts" type="dbmaintain_scripts__type" />
+	<xsd:element name="T_CUSTOMER" type="T_CUSTOMER__type" />
+	<xsd:element name="T_COFFEE_CUP" type="T_COFFEE_CUP__type" />
+	<xsd:element name="T_COFFEE" type="T_COFFEE__type" />
+	<xsd:element name="T_ADDRESS" type="T_ADDRESS__type" />
+	<xsd:element name="T_ORDER" type="T_ORDER__type" />
+	<xsd:complexType name="T_SAIL__type">
+		<xsd:attribute name="F_DELIVERY" use="optional" />
+		<xsd:attribute name="F_ID" use="optional" />
+		<xsd:attribute name="F_FREE_DELIVERY" use="optional" />
+		<xsd:attribute name="F_FREE_CUP" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="dbmaintain_scripts__type">
+		<xsd:attribute name="succeeded" use="optional" />
+		<xsd:attribute name="file_last_modified_at" use="optional" />
+		<xsd:attribute name="executed_at" use="optional" />
+		<xsd:attribute name="checksum" use="optional" />
+		<xsd:attribute name="file_name" use="optional" />
+		<xsd:attribute name="version" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_CUSTOMER__type">
+		<xsd:attribute name="F_LAST_NAME" use="optional" />
+		<xsd:attribute name="F_LOGIN" use="optional" />
+		<xsd:attribute name="F_FIRST_NAME" use="optional" />
+		<xsd:attribute name="F_ROLE" use="optional" />
+		<xsd:attribute name="F_PASSWORD" use="optional" />
+		<xsd:attribute name="F_CUSTOMER_ID" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_COFFEE_CUP__type">
+		<xsd:attribute name="F_ORDER_ID" use="optional" />
+		<xsd:attribute name="F_COFFEE_CUP_ID" use="optional" />
+		<xsd:attribute name="F_COFFEE_ID" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_COFFEE__type">
+		<xsd:attribute name="F_DESCRIPTION" use="optional" />
+		<xsd:attribute name="F_SORT" use="optional" />
+		<xsd:attribute name="F_COFFEE_ID" use="optional" />
+		<xsd:attribute name="F_COST" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_ADDRESS__type">
+		<xsd:attribute name="F_STREET" use="optional" />
+		<xsd:attribute name="F_HOUSE" use="optional" />
+		<xsd:attribute name="F_APARTMENT" use="optional" />
+		<xsd:attribute name="F_ADDRESS_ID" use="optional" />
+		<xsd:attribute name="F_CUSTOMER_ID" use="optional" />
+	</xsd:complexType>
+	<xsd:complexType name="T_ORDER__type">
+		<xsd:attribute name="F_ORDER_DATE" use="optional" />
+		<xsd:attribute name="F_TOTAL_PRICE" use="optional" />
+		<xsd:attribute name="F_ORDER_ID" use="optional" />
+		<xsd:attribute name="F_CUSTOMER_ID" use="optional" />
+	</xsd:complexType>
+</xsd:schema>

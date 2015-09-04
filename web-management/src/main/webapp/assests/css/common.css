@@ -1,0 +1,14 @@
+@import url(bootstrap.css);
+@import url(bootstrap.min.css);
+@import url(bootstrap-responsive.css);
+@import url(bootstrap-responsive.min.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(main.css);
+@import url(error.css);
+@import url(jumbotron-narrow.css);
+
+.cantainer{
+    width: 950px;
+    margin: 0 auto;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:dflt="coffeebreak_test">
+	<xsd:import namespace="coffeebreak_test" schemaLocation="coffeebreak_test.xsd" />
+	<xsd:element name="dataset">
+		<xsd:complexType>
+			<xsd:choice minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="T_SAIL" type="dflt:T_SAIL__type" />
+				<xsd:element name="dbmaintain_scripts" type="dflt:dbmaintain_scripts__type" />
+				<xsd:element name="T_CUSTOMER" type="dflt:T_CUSTOMER__type" />
+				<xsd:element name="T_COFFEE_CUP" type="dflt:T_COFFEE_CUP__type" />
+				<xsd:element name="T_COFFEE" type="dflt:T_COFFEE__type" />
+				<xsd:element name="T_ADDRESS" type="dflt:T_ADDRESS__type" />
+				<xsd:element name="T_ORDER" type="dflt:T_ORDER__type" />
+				<xsd:any namespace="coffeebreak_test" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/../../../dbxsd/dataset.xsd">
+
+    <T_CUSTOMER F_CUSTOMER_ID="1"
+                F_FIRST_NAME="testFirstName_1"
+                F_LAST_NAME="testLastName_1"
+                F_LOGIN="testLogin_1"
+                F_PASSWORD="testPassword_1"
+                F_ROLE="ROLE_ADMIN"/>
+
+    <T_CUSTOMER F_CUSTOMER_ID="2"
+                F_FIRST_NAME="testFirstName_2"
+                F_LAST_NAME="testLastName_2"
+                F_LOGIN="testLogin_2"
+                F_PASSWORD="testPassword_2"
+                F_ROLE="ROLE_USER"/>
+
+
+</dataset>

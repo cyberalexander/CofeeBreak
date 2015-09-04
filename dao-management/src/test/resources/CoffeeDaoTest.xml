@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/../../../dbxsd/dataset.xsd">
+
+    <T_COFFEE F_COFFEE_ID="1"
+                F_COST="100.1"
+                F_DESCRIPTION="testDescription_1"
+                F_SORT="testSort_1"/>
+
+    <T_COFFEE F_COFFEE_ID="2"
+              F_COST="200.1"
+              F_DESCRIPTION="testDescription_2"
+              F_SORT="testSort_2"/>
+</dataset>

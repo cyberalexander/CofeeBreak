@@ -1,0 +1,16 @@
+com.leonovich.cofeebreak.dao
+com.leonovich.cofeebreak.dao.configuration
+com.leonovich.cofeebreak.dao.exception
+com.leonovich.cofeebreak.dao.util
+com.leonovich.cofeebreak.domain
+com.leonovich.cofeebreak.domain.enums
+com.leonovich.cofeebreak.model
+com.leonovich.cofeebreak.service
+com.leonovich.cofeebreak.service.exception
+com.leonovich.cofeebreak.service.facade
+com.leonovich.cofeebreak.service.util
+com.leonovich.cofeebreak.util
+com.leonovich.cofeebreak.web.configuration
+com.leonovich.cofeebreak.web.controller
+com.leonovich.cofeebreak.web.exception
+com.leonovich.cofeebreak.web.util

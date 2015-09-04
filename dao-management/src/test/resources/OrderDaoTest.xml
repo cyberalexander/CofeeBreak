@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/../../../dbxsd/dataset.xsd">
+
+    <T_ORDER F_ORDER_ID="1"
+                F_TOTAL_PRICE="100.1"/>
+
+    <T_ORDER F_ORDER_ID="2"
+             F_TOTAL_PRICE="200.1"/>
+</dataset>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="/../../../dbxsd/dataset.xsd">
+
+    <T_SAIL F_ID="1"
+            F_FREE_CUP="10"
+            F_FREE_DELIVERY="100.1"
+            F_DELIVERY="100.1"/>
+
+    <T_SAIL F_ID="2"
+            F_FREE_CUP="20"
+            F_FREE_DELIVERY="200.1"
+            F_DELIVERY="200.1"/>
+</dataset>

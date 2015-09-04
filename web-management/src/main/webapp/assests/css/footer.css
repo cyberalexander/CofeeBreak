@@ -1,0 +1,11 @@
+.contact, .info{
+    display: inline-block;
+    font-family: Tahoma, arial;
+    font-size: 13px;
+    padding-top: 15px;
+    color: gray;
+    margin-right: 6px;
+}
+.text-contact{
+    margin: -10px 0 10px;
+}
